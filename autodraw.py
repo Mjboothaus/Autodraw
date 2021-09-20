@@ -226,7 +226,7 @@ def play_game():
 
     os.remove('coordinates.txt')
 
-    while lives is not 0:
+    while lives != 0:
 
         print(Fore.MAGENTA + 'Lives left: %d\n' % lives)
         option = input(Fore.LIGHTYELLOW_EX + '\nWhat do you think this drawing is? ' + Style.RESET_ALL).lower()

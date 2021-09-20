@@ -1,5 +1,9 @@
 # Autodraw
 
+## Status
+
+Can't run as yet -- trying to sort with Gitpod
+
 ## What It Does
 This python script works by scanning a user-selected image and using PIL to find it's edges and apply additional filters to return a monchrome image. Then the filtered image is scanned for white pixels, which are subsequently written to a temporary text file. From here, GUI automation through pynput is used to click each of these coordinates from the text file - recreating the image. This drawing can then be saved by storing the text file in the 'drawings' folder to be reused.
 

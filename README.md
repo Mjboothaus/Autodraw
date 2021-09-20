@@ -16,3 +16,21 @@ This python script works by scanning a user-selected image and using PIL to find
 - tqdm  (Progress bar)
 - colorama (Colored printing)
 
+
+## Gitpod - getting running
+
+`brew install python-tk@3.9`
+
+```
+python3 -m pip install --upgrade pip
+pip install -r requirements.txt
+sudo apt-get update
+sudo apt-get install python-tk python3-tk tk-dev # use brew install instead!
+python autodraw.py 
+```
+
+export DISPLAY=":0.0"
+
+See https://stackoverflow.com/questions/5459444/tkinter-python-may-not-be-configured-for-tk
+
+SDKMAN_PLATFORM=linuxx64
